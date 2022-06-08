@@ -1,0 +1,106 @@
+2022-06-03 18:42:38:4238 - [31merror[39m: [31mConnection with database... failed Erro: Error: querySrv ENOTFOUND _mongodb._tcp.cluster.ec1ir.mongodb.net[39m
+2022-06-04 10:25:00:250 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "9" (type string) at path "_id" for model "Movie"[39m
+2022-06-04 10:53:06:536 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "629a897bee1dbaf13d12bf3" (type string) at path "_id" for model "Movie"[39m
+2022-06-04 10:53:08:538 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "629a897bee1dbaf13d12bf3" (type string) at path "_id" for model "Movie"[39m
+2022-06-04 10:54:07:547 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "629a897bee1dbaf13d12bf3" (type string) at path "_id" for model "Movie"[39m
+2022-06-04 10:55:21:5521 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "629a897bee1dbaf13d12bf3" (type string) at path "_id" for model "Movie"[39m
+2022-06-04 10:56:32:5632 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "629a897bee1dbaf13d12bf3" (type string) at path "_id" for model "Movie"[39m
+2022-06-04 11:01:02:12 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "{ _id: '629a897bee1dbaf13d12bf3' }" (type Object) at path "_id" for model "Movie"[39m
+2022-06-04 11:01:08:18 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "{ _id: '629a897bee1dbaf13d12bf3' }" (type Object) at path "_id" for model "Movie"[39m
+2022-06-04 11:03:01:31 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "{ _id: undefined }" (type Object) at path "_id" for model "Movie"[39m
+2022-06-04 11:03:14:314 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "{ _id: '629b5e06b3796e7cebf2461' }" (type Object) at path "_id" for model "Movie"[39m
+2022-06-04 11:04:13:413 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "{ _id: '629b5e06b3796e7cebf2461' }" (type Object) at path "_id" for model "Movie"[39m
+2022-06-04 11:04:18:418 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "{ _id: '629b5e06b3796e7cebf2461' }" (type Object) at path "_id" for model "Movie"[39m
+2022-06-04 11:04:41:441 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "{ id: '629b5e06b3796e7cebf2461' }" (type Object) at path "_id" for model "Movie"[39m
+2022-06-04 11:04:49:449 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "{ id: '629b5e06b3796e7cebf2461c' }" (type Object) at path "_id" for model "Movie"[39m
+2022-06-04 11:05:01:51 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "{ id: undefined }" (type Object) at path "_id" for model "Movie"[39m
+2022-06-04 11:05:16:516 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "{ _id: undefined }" (type Object) at path "_id" for model "Movie"[39m
+2022-06-04 11:05:37:537 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "{ _id: undefined }" (type Object) at path "_id" for model "Movie"[39m
+2022-06-04 11:07:55:755 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "{ _id: undefined }" (type Object) at path "_id" for model "Movie"[39m
+2022-06-04 11:08:04:84 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "{ _id: undefined }" (type Object) at path "_id" for model "Movie"[39m
+2022-06-04 11:09:28:928 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "629a849e5976e0198e8ee15" (type string) at path "_id" for model "Movie"[39m
+2022-06-04 11:12:09:129 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "629a849e5976e0198e8ee15" (type string) at path "_id" for model "Movie"[39m
+2022-06-04 11:13:09:139 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "629a868053a2d3e85692e87" (type string) at path "_id" for model "Movie"[39m
+2022-06-04 11:14:02:142 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "629a868053a2d3e85692e87" (type string) at path "_id" for model "Movie"[39m
+2022-06-04 11:14:24:1424 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "629a85c41ed5780f9c9ba3d" (type string) at path "_id" for model "Movie"[39m
+2022-06-04 11:15:15:1515 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "629a85c41ed5780f9c9ba3d" (type string) at path "_id" for model "Movie"[39m
+2022-06-04 11:16:52:1652 - [31merror[39m: [31mErro no sistema: Cannot access 'movie' before initialization[39m
+2022-06-04 11:17:15:1715 - [31merror[39m: [31mErro no sistema: Cannot access 'movie' before initialization[39m
+2022-06-04 11:19:30:1930 - [31merror[39m: [31mCast to ObjectId failed for value "629a85c41ed5780f9c9ba3d" (type string) at path "_id" for model "Movie"[39m
+2022-06-04 11:20:20:2020 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "629a85c41ed5780f9c9ba3d" (type string) at path "_id" for model "Movie"[39m
+2022-06-04 11:20:22:2022 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "629a85c41ed5780f9c9ba3d" (type string) at path "_id" for model "Movie"[39m
+2022-06-04 11:21:34:2134 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "629a85c41ed5780f9c9ba3d" (type string) at path "_id" for model "Movie"[39m
+2022-06-04 11:21:41:2141 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "629a85c41ed5780f9c9ba3d" (type string) at path "_id" for model "Movie"[39m
+2022-06-04 11:23:52:2352 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "629a85c41ed5780f9c9ba3d" (type string) at path "_id" for model "Movie"[39m
+2022-06-04 11:25:02:252 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "629a85c41ed5780f9c9ba3d" (type string) at path "_id" for model "Movie"[39m
+2022-06-04 11:27:05:275 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "629a85c41ed5780f9c9ba3d" (type string) at path "_id" for model "Movie"[39m
+2022-06-04 11:27:39:2739 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "629a85c41ed5780f9c9ba3d" (type string) at path "_id" for model "Movie"[39m
+2022-06-04 11:28:06:286 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "629a85c41ed5780f9c9ba3d" (type string) at path "_id" for model "Movie"[39m
+2022-06-04 11:47:26:4726 - [31merror[39m: [31mErro no sistema: Cannot read properties of null (reading 'length')[39m
+2022-06-04 13:17:33:1733 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "629a85c41ed5780f9c9ba3d" (type string) at path "_id" for model "Movie"[39m
+2022-06-04 13:18:33:1833 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "629a85c41ed5780f9c9ba3d" (type string) at path "_id" for model "Movie"[39m
+2022-06-04 13:18:34:1834 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "629a85c41ed5780f9c9ba3d" (type string) at path "_id" for model "Movie"[39m
+2022-06-04 13:20:28:2028 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "629a85c41ed5780f9c9ba3d" (type string) at path "_id" for model "Movie"[39m
+2022-06-04 13:20:29:2029 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "629a85c41ed5780f9c9ba3d" (type string) at path "_id" for model "Movie"[39m
+2022-06-04 13:21:02:212 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "629a85c41ed5780f9c9ba3d" (type string) at path "_id" for model "Movie"[39m
+2022-06-04 13:21:03:213 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "629a85c41ed5780f9c9ba3d" (type string) at path "_id" for model "Movie"[39m
+2022-06-04 13:21:50:2150 - [31merror[39m: [31mErro no sistema: Parameter "filter" to find() must be an object, got 629a85c41ed5780f9c9ba3df[39m
+2022-06-04 13:21:51:2151 - [31merror[39m: [31mErro no sistema: Parameter "filter" to find() must be an object, got 629a85c41ed5780f9c9ba3df[39m
+2022-06-04 13:22:08:228 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "629a85c41ed5780f9c9ba3d" (type string) at path "_id" for model "Movie"[39m
+2022-06-04 13:22:52:2252 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "629a85c41ed5780f9c9ba3d" (type string) at path "_id" for model "Movie"[39m
+2022-06-04 13:26:22:2622 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "629a85c41ed5780f9c9ba3d" (type string) at path "_id" for model "Movie"[39m
+2022-06-04 13:27:00:270 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "629a85c41ed5780f9c9ba3d" (type string) at path "_id" for model "Movie"[39m
+2022-06-04 13:28:13:2813 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "629a85c41ed5780f9c9ba3d" (type string) at path "_id" for model "Movie"[39m
+2022-06-04 13:31:19:3119 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "629a85c41ed5780f9c9ba3d" (type string) at path "_id" for model "Movie"[39m
+2022-06-04 13:31:47:3147 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "629a85c41ed5780f9c9ba3d" (type string) at path "_id" for model "Movie"[39m
+2022-06-04 13:31:48:3148 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "629a85c41ed5780f9c9ba3d" (type string) at path "_id" for model "Movie"[39m
+2022-06-04 13:31:49:3149 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "629a85c41ed5780f9c9ba3d" (type string) at path "_id" for model "Movie"[39m
+2022-06-04 13:34:22:3422 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "629a85c41ed5780f9c9ba3d" (type string) at path "_id" for model "Movie"[39m
+2022-06-04 13:34:46:3446 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "629a85c41ed5780f9c9ba3d" (type string) at path "_id" for model "Movie"[39m
+2022-06-04 13:36:05:365 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "629a85c41ed5780f9c9ba3d" (type string) at path "_id" for model "Movie"[39m
+2022-06-04 13:36:05:365 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "629a85c41ed5780f9c9ba3d" (type string) at path "_id" for model "Movie"[39m
+2022-06-04 13:36:40:3640 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "629a85c41ed5780f9c9ba3d" (type string) at path "_id" for model "Movie"[39m
+2022-06-04 13:36:44:3644 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "629a85c41ed5780f9c9ba3d" (type string) at path "_id" for model "Movie"[39m
+2022-06-04 13:36:56:3656 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "629a85c41ed5780f9c9ba3d" (type string) at path "_id" for model "Movie"[39m
+2022-06-04 13:37:21:3721 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "629a85c41ed5780f9c9ba3d" (type string) at path "_id" for model "Movie"[39m
+2022-06-04 13:38:25:3825 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "629a85c41ed5780f9c9ba3d" (type string) at path "_id" for model "Movie"[39m
+2022-06-04 13:39:48:3948 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "629a85c41ed5780f9c9ba3d" (type string) at path "_id" for model "Movie"[39m
+2022-06-04 13:40:13:4013 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "629a85c41ed5780f9c9ba3d" (type string) at path "_id" for model "Movie"[39m
+2022-06-04 13:40:16:4016 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "629a85c41ed5780f9c9ba3d" (type string) at path "_id" for model "Movie"[39m
+2022-06-04 13:40:22:4022 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "629a85c41ed5780f9c9ba3d" (type string) at path "_id" for model "Movie"[39m
+2022-06-04 13:42:30:4230 - [31merror[39m: [31mErro no sistema: Converting circular structure to JSON[39m
+[31m    --> starting at object with constructor 'Socket'[39m
+[31m    |     property '_writableState' -> object with constructor 'WritableState'[39m
+[31m    |     property 'afterWriteTickInfo' -> object with constructor 'Object'[39m
+[31m    --- property 'stream' closes the circle[39m
+2022-06-04 13:46:51:4651 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "629a85c41ed5780f9c9ba3d" (type string) at path "_id" for model "Movie"[39m
+2022-06-04 13:46:52:4652 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "629a85c41ed5780f9c9ba3d" (type string) at path "_id" for model "Movie"[39m
+2022-06-04 13:47:19:4719 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "629a85c41ed5780f9c9ba3d" (type string) at path "_id" for model "Movie"[39m
+2022-06-04 13:48:11:4811 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "629a85c41ed5780f9c9ba3d" (type string) at path "_id" for model "Movie"[39m
+2022-06-04 13:48:11:4811 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "629a85c41ed5780f9c9ba3d" (type string) at path "_id" for model "Movie"[39m
+2022-06-04 13:48:13:4813 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "629a85c41ed5780f9c9ba3d" (type string) at path "_id" for model "Movie"[39m
+2022-06-04 13:48:16:4816 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "629a85c41ed5780f9c9ba3d" (type string) at path "_id" for model "Movie"[39m
+2022-06-04 13:48:45:4845 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "629a85c41ed5780f9c9ba3d" (type string) at path "_id" for model "Movie"[39m
+2022-06-04 13:55:02:552 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "629a85c41ed5780f9c9ba3d" (type string) at path "_id" for model "Movie"[39m
+2022-06-04 13:59:29:5929 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "629a85c41ed5780f9c9ba3d" (type string) at path "_id" for model "Movie"[39m
+2022-06-04 14:02:17:217 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "629a85c41ed5780f9c9ba3d" (type string) at path "_id" for model "Movie"[39m
+2022-06-04 14:02:42:242 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "629a85c41ed5780f9c9ba3d" (type string) at path "_id" for model "Movie"[39m
+2022-06-04 14:42:10:4210 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "629a85c41ed5780f9c9ba3d" (type string) at path "_id" for model "Movie"[39m
+2022-06-04 14:42:16:4216 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "629a85c41ed5780f9c9ba3d" (type string) at path "_id" for model "Movie"[39m
+2022-06-04 14:45:50:4550 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "629a85c41ed5780f9c9ba3d" (type string) at path "_id" for model "Movie"[39m
+2022-06-04 14:47:51:4751 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "629a85c41ed5780f9c9ba3d" (type string) at path "_id" for model "movies"[39m
+2022-06-04 14:47:52:4752 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "629a85c41ed5780f9c9ba3d" (type string) at path "_id" for model "movies"[39m
+2022-06-04 14:48:24:4824 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "629a85c41ed5780f9c9ba3d" (type string) at path "_id" for model "movies"[39m
+2022-06-04 14:51:43:5143 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "629a85c41ed5780f9c9ba3d" (type string) at path "_id" for model "movies"[39m
+2022-06-04 14:52:20:5220 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "629a85c41ed5780f9c9ba3d" (type string) at path "_id" for model "movies"[39m
+2022-06-04 14:53:02:532 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "629a85c41ed5780f9c9ba3d" (type string) at path "_id" for model "movies"[39m
+2022-06-04 14:53:42:5342 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "629a85c41ed5780f9c9ba3d" (type string) at path "_id" for model "movies"[39m
+2022-06-04 14:53:43:5343 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "629a85c41ed5780f9c9ba3d" (type string) at path "_id" for model "movies"[39m
+2022-06-04 14:53:52:5352 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "629a85c41ed5780f9c9ba3d" (type string) at path "_id" for model "movies"[39m
+2022-06-04 14:53:58:5358 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "629a85c41ed5780f9c9ba3d" (type string) at path "_id" for model "movies"[39m
+2022-06-04 14:54:34:5434 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "629a85c41ed5780f9c9ba3d" (type string) at path "_id" for model "movies"[39m
+2022-06-07 15:00:11:011 - [31merror[39m: [31mErro no sistema: doctors validation failed: email: Cast to Number failed for value "gabriel@gmail.com" (type string) at path "email"[39m
+2022-06-07 15:00:38:038 - [31merror[39m: [31mErro no sistema: doctors validation failed: email: Cast to Number failed for value "gabriel@gmail.com" (type string) at path "email"[39m
+2022-06-07 15:01:01:11 - [31merror[39m: [31mErro no sistema: doctors validation failed: email: Cast to Number failed for value "gabriel@gmail.com" (type string) at path "email"[39m
+2022-06-07 17:16:16:1616 - [31merror[39m: [31mErro no sistema: doctors validation failed: email: Cast to Number failed for value "gabriel@gmail.com" (type string) at path "email"[39m
+2022-06-07 17:17:22:1722 - [31merror[39m: [31mErro no sistema: doctors validation failed: email: Cast to Number failed for value "gabriel@gmail.com" (type string) at path "email"[39m
