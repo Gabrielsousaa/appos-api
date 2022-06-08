@@ -1,4 +1,5 @@
 import { Router, Request, Response } from "express";
+//controllers
 import {
   createDoctor,
   findAllDoctors,
@@ -6,16 +7,27 @@ import {
   removeDoctor,
   updateDoctor,
 } from "./controllers/doctorController";
-import { validate } from "./middlewares/handleValidation";
+import {
+  findAllPatients,
+  createPatient,
+} from "./controllers/patientController";
+
+//validações
 import { doctorCreateValidation } from "./middlewares/doctorValidations";
+import { patientCreateValidation } from "./middlewares/patientValidations";
+import { validate } from "./middlewares/handleValidation";
 const router = Router();
 
 export default router
   .get("/test", (req: Request, res: Response) => {
     res.status(200).send("API working");
   })
-  .post("/doctor", doctorCreateValidation(), validate, createDoctor)
-  .get("/doctor/:id", findDoctorById)
-  .get("/doctors", findAllDoctors)
-  .delete("/doctor/:id", removeDoctor)
-  .patch("/doctor/:id", doctorCreateValidation(), validate, updateDoctor);
+  //doctor routes
+  .post("/doc", doctorCreateValidation(), validate, createDoctor)
+  .get("/doc/:id", findDoctorById)
+  .get("/docs", findAllDoctors)
+  .delete("/doc/:id", removeDoctor)
+  .patch("/doc/:id", doctorCreateValidation(), validate, updateDoctor)
+  //patient routes
+  .get("/pats", findAllPatients)
+  .post("/pat", patientCreateValidation(), validate, createPatient);

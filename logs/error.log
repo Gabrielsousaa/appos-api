@@ -104,3 +104,4 @@
 2022-06-07 15:01:01:11 - [31merror[39m: [31mErro no sistema: doctors validation failed: email: Cast to Number failed for value "gabriel@gmail.com" (type string) at path "email"[39m
 2022-06-07 17:16:16:1616 - [31merror[39m: [31mErro no sistema: doctors validation failed: email: Cast to Number failed for value "gabriel@gmail.com" (type string) at path "email"[39m
 2022-06-07 17:17:22:1722 - [31merror[39m: [31mErro no sistema: doctors validation failed: email: Cast to Number failed for value "gabriel@gmail.com" (type string) at path "email"[39m
+2022-06-08 14:33:37:3337 - [31merror[39m: [31mConnection with database... failed Erro: Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.ec1ir.mongodb.net[39m

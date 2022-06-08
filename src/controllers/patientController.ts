@@ -1,29 +1,29 @@
 import { Request, Response } from "express";
 
-import { DoctorModel } from "../models/Doctor";
+import { PatientModel } from "../models/Patient";
 
 import Logger from "../../config/logger";
 
-export async function createDoctor(req: Request, res: Response) {
+export async function createPatient(req: Request, res: Response) {
   try {
     const data = req.body;
-    const doctor = await DoctorModel.create(data);
-    return res.status(201).json(doctor);
+    const patient = await PatientModel.create(data);
+    return res.status(201).json(patient);
   } catch (e: any) {
     Logger.error(`Erro no sistema: ${e.message}`);
     res.status(500).json({ err: "Por favor, tente mais tarde" });
   }
 }
 
-export async function findDoctorById(req: Request, res: Response) {
+export async function findPatientById(req: Request, res: Response) {
   try {
     const id = req.params.id;
-    const doctor = await DoctorModel.findById(id)
+    const patient = await PatientModel.findById(id)
       .then((data) => {
         return res.status(200).json(data);
       })
       .catch(() => {
-        return res.status(404).json({ error: "Doutor não encontrado" });
+        return res.status(404).json({ error: "Paciente não encontrado" });
       });
   } catch (e: any) {
     Logger.error(`Erro no sistema: ${e.message}`);
@@ -31,23 +31,23 @@ export async function findDoctorById(req: Request, res: Response) {
   }
 }
 
-export async function findAllDoctors(req: Request, res: Response) {
+export async function findAllPatients(req: Request, res: Response) {
   try {
-    const doctors = await DoctorModel.find();
+    const patients = await PatientModel.find();
 
-    return res.status(200).json({ data: doctors });
+    return res.status(200).json({ data: patients });
   } catch (e: any) {
     Logger.error(`Erro no sistema: ${e.message}`);
     res.status(500).json({ err: "Por favor, tente mais tarde " });
   }
 }
 
-export async function removeDoctor(req: Request, res: Response) {
+export async function removePatient(req: Request, res: Response) {
   try {
     const id = req.params.id;
-    const doctor = await DoctorModel.findByIdAndRemove(id);
-    if (!doctor) {
-      return res.status(404).json({ error: "O Doutor não existe" });
+    const patient = await PatientModel.findByIdAndRemove(id);
+    if (!patient) {
+      return res.status(404).json({ error: "O paciente não existe" });
     }
     return res.status(200).json({});
   } catch (e: any) {
@@ -56,17 +56,17 @@ export async function removeDoctor(req: Request, res: Response) {
   }
 }
 
-export async function updateDoctor(req: Request, res: Response) {
+export async function updatePatient(req: Request, res: Response) {
   try {
     const id = req.params.id;
     const data = req.body;
-    const doctor = await DoctorModel.findById(id)
+    const patient = await PatientModel.findById(id)
       .then((data) => {
-        DoctorModel.updateOne({ _id: id }, data);
+        PatientModel.updateOne({ _id: id }, data);
         return res.status(200).json(data);
       })
       .catch((err) => {
-        return res.status(404).json({ error: "O Doutor não existe" });
+        return res.status(404).json({ error: "O Paciente não existe" });
       });
   } catch (e: any) {
     Logger.error(`Erro no sistema: ${e.message}`);
