@@ -1,7 +1,14 @@
 import { body } from "express-validator";
-import { phoneNumber, cpf, rg } from "../utils/Validations";
+import {
+  phoneNumber,
+  cpfFormat as cpfIsValid,
+  rg,
+  crm,
+} from "../utils/Validations";
 
-export const movieCreateValidation = () => {
+import { cpf } from "cpf-cnpj-validator";
+
+export const doctorCreateValidation = () => {
   return [
     body("name")
       .isString()
@@ -15,8 +22,23 @@ export const movieCreateValidation = () => {
       .isString()
       .matches(phoneNumber)
       .withMessage("o numero de telefone/celular é obrigatorio."),
-    body("cpf").matches(cpf).withMessage("CPF inválido"),
+    body("especialization")
+      .isString()
+      .isEmpty()
+      .withMessage("Campo especialização inválido"),
+    body("cpf")
+      .isString()
+      .matches(cpfIsValid)
+      .withMessage("Formato de CPF inválido")
+      .custom((value) => {
+        if (cpf.isValid(value) == true) {
+          return true;
+        }
+        return false;
+      })
+      .withMessage("CPF inválido"),
     body("rg").isString().matches(rg).withMessage("Rg inválido"),
+    body("crm").isString().matches(crm).withMessage("CRM inválido"),
   ];
 };
 
