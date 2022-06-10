@@ -20,7 +20,13 @@ export async function findDoctorById(req: Request, res: Response) {
     const id = req.params.id;
     const doctor = await DoctorModel.findById(id)
       .then((data) => {
-        return res.status(200).json(data);
+        if (data.length > 0) {
+          return res.status(404).json({
+            errors: "Doutor não encontrado no sistema",
+          });
+        } else {
+          res.json({ Doutor: data });
+        }
       })
       .catch(() => {
         return res.status(404).json({ error: "Doutor não encontrado" });
@@ -59,14 +65,22 @@ export async function removeDoctor(req: Request, res: Response) {
 export async function updateDoctor(req: Request, res: Response) {
   try {
     const id = req.params.id;
-    const data = req.body;
+    const dataDoc = req.body;
     const doctor = await DoctorModel.findById(id)
-      .then((data) => {
-        DoctorModel.updateOne({ _id: id }, data);
-        return res.status(200).json(data);
+      .then(async (data) => {
+        if (data.length > 0) {
+          return res.status(404).json({
+            errors: "Doutor não encontrado no sistema",
+          });
+        } else {
+          await DoctorModel.updateOne({ _id: id }, dataDoc);
+          res
+            .status(200)
+            .json({ msg: "Campos do Doutor   alterados com sucesso" });
+        }
       })
-      .catch((err) => {
-        return res.status(404).json({ error: "O Doutor não existe" });
+      .catch(() => {
+        return res.status(404).json({ error: "Doutor não encontrado" });
       });
   } catch (e: any) {
     Logger.error(`Erro no sistema: ${e.message}`);

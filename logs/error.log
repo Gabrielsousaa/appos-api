@@ -105,3 +105,15 @@
 2022-06-07 17:16:16:1616 - [31merror[39m: [31mErro no sistema: doctors validation failed: email: Cast to Number failed for value "gabriel@gmail.com" (type string) at path "email"[39m
 2022-06-07 17:17:22:1722 - [31merror[39m: [31mErro no sistema: doctors validation failed: email: Cast to Number failed for value "gabriel@gmail.com" (type string) at path "email"[39m
 2022-06-08 14:33:37:3337 - [31merror[39m: [31mConnection with database... failed Erro: Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.ec1ir.mongodb.net[39m
+2022-06-09 12:35:10:3510 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "62a0e34367734957dd4382b" (type string) at path "_id" for model "patients"[39m
+2022-06-09 12:35:12:3512 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "62a0e34367734957dd4382b" (type string) at path "_id" for model "patients"[39m
+2022-06-09 12:36:56:3656 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "{ _id: '62a0e34367734957dd4382b' }" (type Object) at path "_id" for model "patients"[39m
+2022-06-09 12:38:11:3811 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "62a0e34367734957dd4382b" (type string) at path "_id" for model "patients"[39m
+2022-06-09 12:38:18:3818 - [31merror[39m: [31mErro no sistema: Converting circular structure to JSON[39m
+[31m    --> starting at object with constructor 'Socket'[39m
+[31m    |     property '_writableState' -> object with constructor 'WritableState'[39m
+[31m    |     property 'afterWriteTickInfo' -> object with constructor 'Object'[39m
+[31m    --- property 'stream' closes the circle[39m
+2022-06-09 13:08:03:83 - [31merror[39m: [31mErro no sistema: Cannot set headers after they are sent to the client[39m
+2022-06-10 01:40:37:4037 - [31merror[39m: [31mErro no sistema: Cannot set headers after they are sent to the client[39m
+2022-06-10 01:43:07:437 - [31merror[39m: [31mErro no sistema: Cannot set headers after they are sent to the client[39m

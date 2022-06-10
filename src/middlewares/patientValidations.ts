@@ -31,13 +31,3 @@ export const patientCreateValidation = () => {
     body("rg").isString().matches(rg).withMessage("Rg inválido"),
   ];
 };
-
-/*
-      .custom((value: number) => {
-        if (value < 0 || value > 10) {
-          throw new Error("A nota precisa ser entre 0 e 10");
-        }
-        return true;
-      }),
-      
-*/

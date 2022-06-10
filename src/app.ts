@@ -10,6 +10,7 @@ const port = config.get<number>("port");
 
 const app = express();
 
+app.use(express.urlencoded({ extended: true }));
 //JSON middleware
 app.use(express.json());
 
