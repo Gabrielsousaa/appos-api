@@ -2418,3 +2418,35 @@
 [35m[39m
 2022-06-10 01:53:44:5344 - [35mhttp[39m: [35mPOST /api/appo 200 53 - 9.333 ms[39m
 [35m[39m
+2022-06-10 01:58:16:5816 - [32minfo[39m: [32mConnection with database... successful[39m
+2022-06-10 01:58:16:5816 - [32minfo[39m: [32mApp is running... in port: 3000[39m
+2022-06-10 02:00:10:010 - [32minfo[39m: [32mConnection with database... successful[39m
+2022-06-10 02:00:10:010 - [32minfo[39m: [32mApp is running... in port: 3000[39m
+2022-06-10 02:00:15:015 - [35mhttp[39m: [35mGET /api/appos 200 281 - 17.525 ms[39m
+[35m[39m
+2022-06-10 02:01:05:15 - [32minfo[39m: [32mConnection with database... successful[39m
+2022-06-10 02:01:05:15 - [32minfo[39m: [32mApp is running... in port: 3000[39m
+2022-06-10 02:01:18:118 - [35mhttp[39m: [35mGET /api/appo/62a2ce5889b7eb3a8f7b5682 200 278 - 19.173 ms[39m
+[35m[39m
+2022-06-10 02:01:20:120 - [35mhttp[39m: [35mGET /api/appo/62a2ce5889b7eb3a8f7b5682 200 278 - 5.197 ms[39m
+[35m[39m
+2022-06-10 02:01:31:131 - [35mhttp[39m: [35mPOST /api/appo 200 63 - 17.352 ms[39m
+[35m[39m
+2022-06-10 02:01:33:133 - [35mhttp[39m: [35mGET /api/appos 200 561 - 4.592 ms[39m
+[35m[39m
+2022-06-10 02:01:43:143 - [35mhttp[39m: [35mGET /api/appo/62a2d02b08067852428c48f7 200 288 - 3.152 ms[39m
+[35m[39m
+2022-06-10 02:01:46:146 - [35mhttp[39m: [35mGET /api/appo/62a2d02b08067852428c48f 404 36 - 2.298 ms[39m
+[35m[39m
+2022-06-10 02:01:49:149 - [35mhttp[39m: [35mGET /api/appo/62a2d02b08067852428c48fd 404 36 - 3.170 ms[39m
+[35m[39m
+2022-06-10 02:01:52:152 - [35mhttp[39m: [35mGET /api/appo/62a2d02b08067852428c48f7 200 288 - 3.151 ms[39m
+[35m[39m
+2022-06-10 02:02:13:213 - [32minfo[39m: [32mConnection with database... successful[39m
+2022-06-10 02:02:13:213 - [32minfo[39m: [32mApp is running... in port: 3000[39m
+2022-06-10 02:02:28:228 - [32minfo[39m: [32mConnection with database... successful[39m
+2022-06-10 02:02:28:228 - [32minfo[39m: [32mApp is running... in port: 3000[39m
+2022-06-10 02:02:39:239 - [32minfo[39m: [32mConnection with database... successful[39m
+2022-06-10 02:02:39:239 - [32minfo[39m: [32mApp is running... in port: 3000[39m
+2022-06-10 02:03:20:320 - [32minfo[39m: [32mConnection with database... successful[39m
+2022-06-10 02:03:20:320 - [32minfo[39m: [32mApp is running... in port: 3000[39m

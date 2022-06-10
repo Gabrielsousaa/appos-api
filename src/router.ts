@@ -15,12 +15,20 @@ import {
   updatePatient,
 } from "./controllers/patientController";
 
+import {
+  createAppointment,
+  findAllAppointments,
+  findAppointmentById,
+  removeAppointment,
+  updateAppointment,
+} from "./controllers/appointmentController";
+
 //validações
 import { doctorCreateValidation } from "./middlewares/doctorValidations";
 import { patientCreateValidation } from "./middlewares/patientValidations";
-import { validate } from "./middlewares/handleValidation";
-import { createAppointment } from "./controllers/appointmentController";
 import { appoCreateValidation } from "./middlewares/appoValidatons";
+import { validate } from "./middlewares/handleValidation";
+
 const router = Router();
 
 export default router
@@ -40,4 +48,8 @@ export default router
   .delete("/pat/:id", removePatient)
   .patch("/pat/:id", patientCreateValidation(), validate, updatePatient)
   //appointment routes
-  .post("/appo", appoCreateValidation(), validate, createAppointment);
+  .post("/appo", appoCreateValidation(), validate, createAppointment)
+  .get("/appos", findAllAppointments)
+  .get("/appo/:id", findAppointmentById)
+  .delete("/appo/:id", removeAppointment)
+  .patch("/appo/:id", appoCreateValidation(), validate, updateAppointment);
